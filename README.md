@@ -160,7 +160,8 @@ A: A free demo NuGet and sample app will be available.
 
 ## 🌐 Links
 
-- Website: [atomicapps.dev](https://atomicapps.dev)  
+- Website: [atomicapps.dev](https://atomicapps.dev)
+- Demo: [atomicapps.dev](https://atomicapps.dev/demo)
 - Pricing: [atomicapps.dev/pricing](https://atomicapps.dev/pricing)  
 - YouTube: [AtomicAppsOfficial](https://www.youtube.com/@AtomicAppsOfficial)  
 - X (Twitter): [@AtomicAppsUI](https://x.com/AtomicAppsUI)  
