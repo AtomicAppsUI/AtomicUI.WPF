@@ -66,7 +66,7 @@ These controls are styled using pure XAML and integrate seamlessly:
    </ResourceDictionary>
    ```
 
-3. (Optional) Replace your main window with `ModernWindow`:
+3. Replace your main window with `ModernWindow`:
    ```xml
    <ui:ModernWindow
        x:Class="MyApp.MainWindow"
@@ -88,6 +88,29 @@ These controls are styled using pure XAML and integrate seamlessly:
        }
    }
    ```
+
+4. The license key setup instructions
+   ```csharp
+    using AtomicUI;
+
+    public partial class App : Application
+    {
+        protected override async void OnStartup(StartupEventArgs e)
+        {
+            ThemeManager.SetKey("YOUR-LICENSE-KEY");
+            await ThemeManager.InitializeAsync();
+
+            base.OnStartup(e);
+        }
+    }
+   ```
+
+A trial license may be provided upon request for evaluation purposes.
+Contact dan@atomicapps.dev for details.
+
+> 💡 Use `DynamicResource` for theme-aware brushes.  
+> Dark & Light themes are included. Accent color customization is planned.  
+
 
 > 💡 Use `DynamicResource` for theme-aware brushes.  
 > Dark & Light themes are included. Accent color customization is planned.  
