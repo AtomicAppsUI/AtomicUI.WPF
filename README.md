@@ -59,9 +59,10 @@ These controls are styled using pure XAML and integrate seamlessly:
 
 2. Merge the theme resource dictionary:
    ```xml
-   <ResourceDictionary>
+   <ResourceDictionary> 
      <ResourceDictionary.MergedDictionaries>
-       <ResourceDictionary Source="pack://application:,,,/AtomicUI.WPF;component/Themes/AtomicUI.xaml" />
+       <ResourceDictionary Source="pack://application:,,,/AtomicUI.WPF;component/Themes/DarkTheme.xaml" />
+       <ResourceDictionary Source="pack://application:,,,/AtomicUI.WPF;component/Themes/LightTheme.xaml"/>
      </ResourceDictionary.MergedDictionaries>
    </ResourceDictionary>
    ```
