@@ -96,22 +96,20 @@ These controls are styled using pure XAML and integrate seamlessly:
 
     public partial class App : Application
     {
-        protected override async void OnStartup(StartupEventArgs e)
-        {
-            ThemeManager.SetKey("YOUR-LICENSE-KEY");
-            await ThemeManager.InitializeAsync();
+       protected override async void OnStartup(StartupEventArgs e)
+       {
+           // Only required for paid licenses
+           ThemeManager.SetKey("MY-LICENSE-KEY");
 
-            base.OnStartup(e);
-        }
-    }
+           await ThemeManager.InitializeAsync();
+           base.OnStartup(e);
+       }
+   }
+
    ```
 
-A trial license may be provided upon request for evaluation purposes.
+A trial license now activates automatically.
 Contact dan@atomicapps.dev for details.
-
-> 💡 Use `DynamicResource` for theme-aware brushes.  
-> Dark & Light themes are included. Accent color customization is planned.  
-
 
 > 💡 Use `DynamicResource` for theme-aware brushes.  
 > Dark & Light themes are included. Accent color customization is planned.  
@@ -131,6 +129,7 @@ Contact dan@atomicapps.dev for details.
 ## 📄 License
 
 Commercial license required.  
+A trial license activates automatically
 Distributed as a compiled-only NuGet package (no source).  
 See [Pricing](https://atomicapps.dev/pricing).  
 
