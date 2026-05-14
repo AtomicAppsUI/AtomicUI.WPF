@@ -247,6 +247,36 @@ This is only needed in rare cases, typically when:
 - A custom control library has isolated resources
 - A `BasedOn` style is resolved before AtomicUI’s global dictionaries finish loading
 
+### 3.ListBox Selection Focus Restoration
+
+When replacing or refreshing a `ListBox.ItemsSource` (for example after reloading entities from SQLite/EF Core), WPF may recreate the internal `ListBoxItem` containers. Although the selected item is restored correctly, keyboard focus can fall back to the parent window.
+
+This can cause:
+
+* selected item visual flicker
+* inactive selected styling triggering unexpectedly
+* focus-based animations behaving incorrectly
+
+A simple solution is to restore focus to the selected `ListBoxItem` after layout/container generation completes:
+
+```csharp
+private void TanksListBox_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+{
+    Dispatcher.BeginInvoke(new Action(() =>
+    {
+        TanksListBox.UpdateLayout();
+
+        var item = TanksListBox.ItemContainerGenerator
+            .ContainerFromItem(TanksListBox.SelectedItem) as ListBoxItem;
+
+        item?.Focus();
+    }), DispatcherPriority.ContextIdle);
+}
+```
+
+This is especially useful when using focus-sensitive selection styling or animations, where selected items intentionally change appearance when keyboard focus moves away from the selector.
+
+
 > Dark & Light themes are included. Accent color customization is planned.
 
 ---
