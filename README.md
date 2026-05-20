@@ -109,14 +109,30 @@ These controls are styled using pure XAML and integrate seamlessly:
    ```
 
 2. Merge the theme resource dictionary:
-   ```xml
-   <ResourceDictionary> 
-     <ResourceDictionary.MergedDictionaries>
-       <ResourceDictionary Source="pack://application:,,,/AtomicUI.WPF;component/Themes/DarkTheme.xaml" />
-       <ResourceDictionary Source="pack://application:,,,/AtomicUI.WPF;component/Themes/LightTheme.xaml"/>
-     </ResourceDictionary.MergedDictionaries>
-   </ResourceDictionary>
-   ```
+
+**Option A — full pack URI**
+
+```xml
+<ResourceDictionary>
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="pack://application:,,,/AtomicUI;component/Themes/DarkTheme.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/AtomicUI;component/Themes/Generic.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
+```
+
+**Option B — shorter assembly resource path**
+
+```xml
+<ResourceDictionary>
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="/AtomicUI;component/Themes/DarkTheme.xaml" />
+    <ResourceDictionary Source="/AtomicUI;component/Themes/Generic.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
+```
+
+If one format does not resolve in your project setup, use the other. This can vary depending on how the WPF application loads resources, modules, or views.
 
 3. Replace your main window with `ModernWindow`:
    ```xml
@@ -156,6 +172,13 @@ These controls are styled using pure XAML and integrate seamlessly:
    ```
 
 That is all it takes, you are now running a modern 2026-looking application.
+
+## 📬 Support
+
+Need help with setup, licensing, or integration?
+
+- Discord: https://discord.gg/5QN4qyGP
+- Email: dan@atomicapps.dev
 
 ⚡ Advanced Scenarios (Still Super Easy)
 
@@ -260,13 +283,6 @@ This is only needed in rare cases, typically when:
 - Accent color customization planned for a future release  
 
 ---
-
-## 📬 Support
-
-Need help with setup, licensing, or integration?
-
-- Discord: https://discord.gg/5QN4qyGP
-- Email: dan@atomicapps.dev
 
 ## 📄 License
 
