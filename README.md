@@ -1,6 +1,9 @@
 [README.md](https://github.com/user-attachments/files/22582030/README.md)
 # AtomicUI.WPF
 
+Modern WPF theme for .NET Framework and .NET 9.  
+Premium Fluent-inspired UI for native WPF desktop applications.
+
 **Modern UI. Minimal XAML. 2026-ready. Atomic speed.**
 
 Stop making apps that look like the Windows 11 Settings panel.
@@ -152,8 +155,7 @@ These controls are styled using pure XAML and integrate seamlessly:
 
    ```
 
-That is all it takes, you are now running modern 2026 looking aplication.
-Contact dan@atomicapps.dev for details.
+That is all it takes, you are now running a modern 2026-looking application.
 
 ⚡ Advanced Scenarios (Still Super Easy)
 
@@ -247,36 +249,6 @@ This is only needed in rare cases, typically when:
 - A custom control library has isolated resources
 - A `BasedOn` style is resolved before AtomicUI’s global dictionaries finish loading
 
-### 3.ListBox Selection Focus Restoration
-
-When replacing or refreshing a `ListBox.ItemsSource` (for example after reloading entities from SQLite/EF Core), WPF may recreate the internal `ListBoxItem` containers. Although the selected item is restored correctly, keyboard focus can fall back to the parent window.
-
-This can cause:
-
-* selected item visual flicker
-* inactive selected styling triggering unexpectedly
-* focus-based animations behaving incorrectly
-
-A simple solution is to restore focus to the selected `ListBoxItem` after layout/container generation completes:
-
-```csharp
-private void TanksListBox_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
-{
-    Dispatcher.BeginInvoke(new Action(() =>
-    {
-        TanksListBox.UpdateLayout();
-
-        var item = TanksListBox.ItemContainerGenerator
-            .ContainerFromItem(TanksListBox.SelectedItem) as ListBoxItem;
-
-        item?.Focus();
-    }), DispatcherPriority.ContextIdle);
-}
-```
-
-This is especially useful when using focus-sensitive selection styling or animations, where selected items intentionally change appearance when keyboard focus moves away from the selector.
-
-
 > Dark & Light themes are included. Accent color customization is planned.
 
 ---
@@ -288,6 +260,13 @@ This is especially useful when using focus-sensitive selection styling or animat
 - Accent color customization planned for a future release  
 
 ---
+
+## 📬 Support
+
+Need help with setup, licensing, or integration?
+
+- Discord: https://discord.gg/5QN4qyGP
+- Email: dan@atomicapps.dev
 
 ## 📄 License
 
