@@ -1,27 +1,28 @@
-[README.md](https://github.com/user-attachments/files/22582030/README.md)
 # AtomicUI.WPF
 
-Modern WPF theme for .NET Framework and .NET 9.  
+Modern WPF theme for .NET Framework and modern .NET.  
 Premium Fluent-inspired UI for native WPF desktop applications.
 
 **Modern UI. Minimal XAML. 2026-ready. Atomic speed.**
 
-Stop making apps that look like the Windows 11 Settings panel.
-**AtomicUI.WPF** is the evolution of the Fluent design system — a tactile, high‑end visual language that Microsoft’s default themes simply can’t match.
+Move beyond the default Windows 11 look.  
+**AtomicUI.WPF** is a modern evolution of Fluent design — a tactile, high-end visual language built for polished WPF desktop applications.
 
-**Beyond flat:** glass‑morphism, refractive depth, layered surfaces, and smooth motion that give your app a “future Windows” feel without switching frameworks.
+**Beyond flat:** Glass-morphism, refractive depth, layered surfaces, and smooth motion give your app a "future Windows" feel without switching frameworks.
 
-**Zero Learning Curve:** Styles native WPF controls automatically.
-No Atomic:Button, no ui:Button, no EditButton — it’s just a normal Button.
-No custom markup, no redesigning your UI, no wrestling with massive XAML templates just to change a color. Keep your existing XAML — it just looks modern
+**Zero Learning Curve:** AtomicUI styles native WPF controls automatically. No `Atomic:Button`, no `ui:Button`, no `EditButton` — it's just a normal `Button`. No custom markup, no redesigning your UI, no wrestling with massive XAML templates just to change a color. Keep your existing XAML — it just looks modern.
 
-**Better than Microsoft’s defaults:** We’ve taken Fluent, polished it, deepened it, and turned it into a premium professional design system that outclasses the .NET 10 themes.
+**Better than Microsoft's defaults:** We've taken Fluent, polished it,
+deepened it, and turned it into a premium professional design system
+that outclasses the .NET 10 themes.
 
-**Legacy power:** Bring a 2026‑grade UI to apps running on .NET Framework 4.5.1+. No migration to .NET 10, WinUI, or MAUI required.
+**Legacy power:** Bring a 2026‑grade UI to apps running on .NET
+Framework 4.5.1+. No migration to .NET 10, WinUI, or MAUI required.
 
 ## 🚀 Try the Official AtomicUI Gallery
 
-Explore AtomicUI.WPF in a real desktop application with live controls, animations, themes, layouts, and modern WPF styling examples.
+Explore AtomicUI.WPF in a real desktop application with live controls,
+animations, themes, layouts, and modern WPF styling examples.
 
 📦 Microsoft Store:
 https://apps.microsoft.com/detail/9PHND2W8WGG7?hl=en-us&gl=GB&ocid=pdpshare
@@ -31,99 +32,138 @@ The gallery demonstrates:
 - Light & Dark themes
 - Smooth animations and transitions
 - Modernized WPF layouts and surfaces
-- Real-world desktop UI examples built entirely with native WPF controls
+- Native WPF controls styled with AtomicUI
 
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/38db8b2a-01be-46f4-822f-81dadd4fe39d" width="250" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/e26e98df-637a-431e-9214-f34eab7284f4" width="250" />
-</p>
+<img width="500"  alt="Dashboard" src="https://github.com/user-attachments/assets/757b0d3c-fc41-4ba2-944b-5aa66cebf96c" />
+<img width="500"  alt="BasicInput" src="https://github.com/user-attachments/assets/62d03c31-caf1-4d5c-97a5-7440b8e0ece2" />
 
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/251e1736-ba79-456f-a0f2-ba0786745997" width="250" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/ad9fbe2c-057b-4a23-bdce-592d795f88ee" width="250" />
-</p>
+<img width="500"  alt="Text" src="https://github.com/user-attachments/assets/8d03a581-d7ad-4b2e-ae7e-f5d44720e0ed" />
+<img width="500"  alt="DateAndCalendar" src="https://github.com/user-attachments/assets/96c6b6ed-871b-476d-8535-8d052a75a18d" />
 
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/1b26ba5f-7a98-48ad-83bd-8be195dbf2ec" width="250" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/702e582d-61cd-4023-aa77-3805cfdff1eb" width="250" />
-</p>
+<img width="500"  alt="Collections" src="https://github.com/user-attachments/assets/8be587f4-e927-4623-90f2-16a06d16d658" />
+<img width="500"  alt="WorkspaceDemo" src="https://github.com/user-attachments/assets/76c631df-d323-4edb-92a2-497aa8551578" />
+<img width="500"  alt="WorkspaceDemo22" src="https://github.com/user-attachments/assets/00b06a30-9ef4-42a3-8245-9d65bc388b10" />
 
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/09a41a2e-3c93-413b-af42-ec94c8d90839" width="250" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/69bf2fae-a6eb-4609-9f1c-bef64586f3be" width="250" />
-</p>
+------------------------------------------------------------------------
+
+## 🖥️ Built with AtomicUI
+
+A couple of commercial products using AtomicUI.WPF:
+
+### Map Secrets
+
+**Interactive Map Maker -- Turn Any Image Into a Custom Map** is a
+desktop mapping application built with WPF and AtomicUI.
+
+<img width="500" alt="trails2" src="https://github.com/user-attachments/assets/cdfe53d0-d4f9-4621-8d4f-788e8a876c58" />
+<img width="500"  alt="event4" src="https://github.com/user-attachments/assets/8d87ab91-6b2d-41e7-b3bf-e9c477a4198d" />
+
+<table>
+  <tr>
+    <td valign="center">
+      <img width="500" src="https://github.com/user-attachments/assets/03045f06-c9e1-4ecc-9302-1d3bb94eb4b3" />
+    </td>
+    <td valign="top">
+      <img width="300" src="https://github.com/user-attachments/assets/ff0ad5d4-a55b-4f1d-99c6-5d8127a8bb46" />
+    </td>
+  </tr>
+</table>
 
 
----
+### Tank Secrets
+
+**Tank Secrets** is a Windows aquarium management application built with
+WPF and AtomicUI.
+
+<img width="500" alt="Map Secrets - Dashboard" src="https://github.com/user-attachments/assets/e631b4d3-e4e0-4985-ba42-2d469ae0de45" />
+
+<img width="500" alt="Tank Secrets - Water Parameters" src="https://github.com/user-attachments/assets/7ed7470a-3861-4a42-97a6-95dfcb514f94" />
+
+Both applications use native WPF controls styled with AtomicUI.
+
+------------------------------------------------------------------------
 
 ## ✨ Features
 
-- Modern Windows 11-style rounded edges and fluent animations  
-- Dark & Light themes included  
-- Custom window chrome with smooth transitions  
-- Drop-in integration with minimal XAML changes  
-- Backward compatible: .NET 4.5.1 → .NET 9, Windows 7 → 11  
+-   Modern Windows 11-style rounded edges and fluent animations\
+-   Dark & Light themes included\
+-   Custom window chrome with smooth transitions\
+-   Drop-in integration with minimal XAML changes\
+-   Backward compatible: .NET Framework 4.5.1+ and modern .NET, Windows
+    7 → 11
 
----
+------------------------------------------------------------------------
 
 ## 🧱 Styled WPF Controls
 
 These controls are styled using pure XAML and integrate seamlessly:
 
-- Button / ToggleButton  
-- CheckBox / RadioButton  
-- ComboBox / ListBox  
-- Expander  
-- ProgressBar  
-- Slider  
-- TextBlock / TextBox  
+-   Button / ToggleButton\
+-   CheckBox / RadioButton\
+-   ComboBox / ListBox\
+-   Expander\
+-   ProgressBar\
+-   Slider\
+-   TextBlock / TextBox
 
----
+------------------------------------------------------------------------
 
 ## 🧪 Custom Controls
 
-- `ModernWindow` with custom chrome  
-- Custom Calendar  
-- Custom DatePicker  
-- Loading Animation  
+-   `ModernWindow` with custom chrome\
+-   Custom Calendar\
+-   Custom DatePicker\
+-   Loading Animation
 
----
+------------------------------------------------------------------------
 
 ## 🧩 Compatibility
 
-- **.NET Framework:** 4.5.1 and later (tested on 4.5.1, 4.6.2, 4.8)  
-- **.NET (Core/Modern):** 6, 7, 8, 9 (Windows only)  
-- **OS:** Windows 7 → Windows 11  
+-   **.NET Framework:** 4.5.1 and later (tested on 4.5.1, 4.6.2, 4.8)\
+-   **.NET (Core/Modern):** 6, 7, 8, 9, 10 (Windows only)\
+-   **OS:** Windows 7 → Windows 11
 
----
+------------------------------------------------------------------------
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-1. Install the NuGet package (coming soon):
-   ```powershell
-   dotnet add package AtomicUI.WPF
-   ```
+### 1. Install AtomicUI.WPF
 
-2. Merge the theme resource dictionary:
+``` powershell
+dotnet add package AtomicUI.Wpf
+```
 
-**Option A — full pack URI**
+### 2. Add AtomicUI resources
 
-```xml
+#### Using `ModernWindow`
+
+If your application uses `ModernWindow`, **do not add `DarkTheme.xaml`
+or `LightTheme.xaml`**.
+
+You only need to merge `Generic.xaml`:
+
+``` xml
 <ResourceDictionary>
   <ResourceDictionary.MergedDictionaries>
-    <ResourceDictionary Source="pack://application:,,,/AtomicUI;component/Themes/DarkTheme.xaml" />
-    <ResourceDictionary Source="pack://application:,,,/AtomicUI;component/Themes/Generic.xaml" />
+    <ResourceDictionary Source="/AtomicUI;component/Themes/Generic.xaml" />
   </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
 ```
 
-**Option B — shorter assembly resource path**
+`ModernWindow` automatically loads and manages the active Dark or Light
+theme.
 
-```xml
+> **Important:** When using `ModernWindow`, reference `Generic.xaml`
+> only. Do not manually merge a theme dictionary.
+
+#### Using a standard WPF `Window`
+
+If you are **not** using `ModernWindow`, merge `Generic.xaml` together
+with the theme you want to use.
+
+**Dark theme**
+
+``` xml
 <ResourceDictionary>
   <ResourceDictionary.MergedDictionaries>
     <ResourceDictionary Source="/AtomicUI;component/Themes/DarkTheme.xaml" />
@@ -132,63 +172,81 @@ These controls are styled using pure XAML and integrate seamlessly:
 </ResourceDictionary>
 ```
 
-If one format does not resolve in your project setup, use the other. This can vary depending on how the WPF application loads resources, modules, or views.
+**Light theme**
 
-3. Replace your main window with `ModernWindow`:
-   ```xml
-   <ui:ModernWindow
-       x:Class="MyApp.MainWindow"
-       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-       xmlns:ui="clr-namespace:AtomicUI.CustomControls;assembly=AtomicUI"
-       Title="My App">
-     <!-- Your content -->
-   </ui:ModernWindow>
-   ```
-   ```csharp
-   public partial class MainWindow : ModernWindow
-   {
-       public MainWindow()
-       {
-           InitializeComponent();
-       }
-   }
-   ```
+``` xml
+<ResourceDictionary>
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="/AtomicUI;component/Themes/LightTheme.xaml" />
+    <ResourceDictionary Source="/AtomicUI;component/Themes/Generic.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
+```
 
-4. The license key setup instructions
-   ```csharp
-    using AtomicUI;
+### 3. Use `ModernWindow` (optional)
 
-    public partial class App : Application
+Replace your WPF window with `ModernWindow` if you want AtomicUI's
+custom window chrome and automatic theme handling:
+
+``` xml
+<ui:ModernWindow
+    x:Class="MyApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="clr-namespace:AtomicUI.CustomControls;assembly=AtomicUI"
+    Title="My App">
+  <!-- Your content -->
+</ui:ModernWindow>
+```
+
+``` csharp
+public partial class MainWindow : ModernWindow
+{
+    public MainWindow()
     {
-        //Only required for paid licenses
-        protected override async void OnStartup(StartupEventArgs e)
-        {
-            ThemeManager.SetKey("MY-LICENSE-KEY");
-            base.OnStartup(e);
-        }
+        InitializeComponent();
     }
+}
+```
 
-   ```
+### 4. Add a license key when required
 
-That is all it takes, you are now running a modern 2026-looking application.
+``` csharp
+using AtomicUI;
+
+public partial class App : Application
+{
+    protected override void OnStartup(StartupEventArgs e)
+    {
+        ThemeManager.SetKey("MY-LICENSE-KEY");
+        base.OnStartup(e);
+    }
+}
+```
+
+A license key is only required for paid licenses.
+
+That's it --- your existing native WPF controls can now use AtomicUI
+styling.
 
 ## 📬 Support
 
 Need help with setup, licensing, or integration?
 
-- Discord: https://discord.gg/5QN4qyGP
-- Email: dan@atomicapps.dev
+-   Discord: https://discord.gg/5QN4qyGP
+-   Email: dan@atomicapps.dev
 
-⚡ Advanced Scenarios (Still Super Easy)
+## ⚡ Advanced Scenarios (Still Super Easy)
 
-1. Keeping Theme Styling When Overriding Control Styles
-AtomicUI automatically styles all native WPF controls.
-But if you create your own custom style without a BasedOn, you replace the entire style — which means the theme can’t apply its visuals.
+1.  Keeping Theme Styling When Overriding Control Styles AtomicUI
+    automatically styles all native WPF controls. But if you create your
+    own custom style without a BasedOn, you replace the entire style ---
+    which means the theme can't apply its visuals.
 
-❌ What not to do
-This overrides the entire TextBox style, removing AtomicUI’s styling:
-```xml   
+❌ What not to do This overrides the entire TextBox style, removing
+AtomicUI's styling:
+
+``` xml
 
 <TextBox Height="40" AcceptsReturn="True" Text="{Binding Notes}">
     <TextBox.Style>
@@ -199,10 +257,10 @@ This overrides the entire TextBox style, removing AtomicUI’s styling:
 </TextBox>
 ```
 
-✅ Correct way (inherits AtomicUI’s styling)
-To keep the theme’s visuals, base your style on the default TextBox style:
+✅ Correct way (inherits AtomicUI's styling) To keep the theme's
+visuals, base your style on the default TextBox style:
 
-```xml
+``` xml
 <TextBox Height="40" AcceptsReturn="True" Text="{Binding Notes}">
     <TextBox.Style>
         <Style BasedOn="{StaticResource {x:Type TextBox}}" 
@@ -213,31 +271,30 @@ To keep the theme’s visuals, base your style on the default TextBox style:
 </TextBox>
 ```
 
-✔ Applies to all controls
-This rule applies to any control you restyle:
-- Button
-- TextBox
-- ComboBox
-- ListBox
-- Slider
-- CheckBox
-- Your own custom controls
-If you want to keep AtomicUI’s visuals, always use:
+✔ Applies to all controls This rule applies to any control you
+restyle: - Button - TextBox - ComboBox - ListBox - Slider - CheckBox -
+Your own custom controls If you want to keep AtomicUI's visuals, always
+use:
 
-```xml
+``` xml
 BasedOn="{StaticResource {x:Type ControlName}}"
 ```
 
-(This is standard WPF — not an AtomicUI limitation)
-When you apply your own style to a control, WPF replaces the entire style unless you explicitly inherit from the existing one. This is normal WPF behavior, and it applies to every theme library, including AtomicUI.
+(This is standard WPF --- not an AtomicUI limitation) When you apply
+your own style to a control, WPF replaces the entire style unless you
+explicitly inherit from the existing one. This is normal WPF behavior,
+and it applies to every theme library, including AtomicUI.
 
 ### 2. Style Not Found in Some Framework-Loaded Views
 
-In some advanced scenarios, especially when a view is loaded dynamically by Prism or another framework, WPF may try to resolve a `BasedOn` style before the relevant AtomicUI style dictionary has been loaded for that view.
+In some advanced scenarios, especially when a view is loaded dynamically
+by Prism or another framework, WPF may try to resolve a `BasedOn` style
+before the relevant AtomicUI style dictionary has been loaded for that
+view.
 
 This usually only matters when you override a control style like this:
 
-```xml
+``` xml
 <Style BasedOn="{StaticResource {x:Type Label}}"
        TargetType="Label">
     <Setter Property="FontSize" Value="18" />
@@ -266,60 +323,112 @@ This usually only matters when you override a control style like this:
 
 This is only needed in rare cases, typically when:
 
-- A Prism region dynamically loads a view
-- A module loads its own ResourceDictionaries separately
-- A dialog/window is created outside the main application visual tree
-- A custom control library has isolated resources
-- A `BasedOn` style is resolved before AtomicUI’s global dictionaries finish loading
+-   A Prism region dynamically loads a view
+-   A module loads its own ResourceDictionaries separately
+-   A dialog/window is created outside the main application visual tree
+-   A custom control library has isolated resources
+-   A `BasedOn` style is resolved before AtomicUI's global dictionaries
+    finish loading
 
-> Dark & Light themes are included. Accent color customization is planned.
+> Dark & Light themes are included. Accent color customization is
+> planned.
 
----
+------------------------------------------------------------------------
 
 ## 🎨 Theming
 
-- Dark & Light themes included (`Themes/Dark.xaml`, `Themes/Light.xaml`)  
-- Use `DynamicResource` for color switching  
-- Accent color customization planned for a future release  
+-   Dark and Light themes included (`Themes/DarkTheme.xaml`,
+    `Themes/LightTheme.xaml`)
+-   **Using `ModernWindow`: merge `Generic.xaml` only --- do not
+    manually add `DarkTheme.xaml` or `LightTheme.xaml`**
+-   `ModernWindow` automatically loads and manages the active theme
+-   Using a standard WPF `Window`: merge `Generic.xaml` together with
+    the theme you want to use
+-   Use `DynamicResource` where your own resources need to react to
+    theme changes
+-   Accent color customization is planned for a future release
 
----
+------------------------------------------------------------------------
 
-## 📄 License
+## 📄 Licensing
 
-Commercial license required.  
-A trial license activates automatically
-Distributed as a compiled-only NuGet package (no source).  
-See [Pricing](https://atomicapps.dev/pricing).  
+AtomicUI.WPF uses a perpetual licensing model.
 
----
+### Personal & Indie --- Free
+
+Free with no time limit for:
+
+-   Personal and hobby projects
+-   Independent developers
+-   Commercial applications you develop and distribute independently
+
+No guaranteed support is included.
+
+### Commercial Licenses
+
+Paid licenses are available for:
+
+-   Individual developers working for an organisation, employer, or
+    client
+-   Development teams
+-   Enterprise organisations
+
+Commercial licenses are perpetual and include updates and support for
+the included support period.
+
+See [Pricing](https://atomicapps.dev/pricing) for current plans,
+pricing, and full licensing details.
+
+AtomicUI.WPF is distributed as a compiled-only NuGet package (no
+source).
+
+------------------------------------------------------------------------
 
 ## 🧠 FAQ
 
-**Q: Can I use it in a commercial app?**  
-A: Yes, but a paid license is required.  
+**Q: Can I use AtomicUI in a commercial app?**\
+A: Yes. Independent developers can use the free Personal & Indie license
+for applications they develop and distribute independently. A paid
+license is required for employer, client, team, or other organisational
+commercial use.
 
-**Q: Is the source code included?**  
-A: No, this is a compiled-only package.  
+**Q: Is the source code included?**\
+A: No. AtomicUI.WPF is distributed as a compiled-only package.
 
-**Q: Can I try it before buying?**  
-A: A free demo NuGet and sample app will be available.  
+**Q: Do I need to replace standard WPF controls?**\
+A: No. AtomicUI styles native WPF controls, so you can keep using normal
+controls such as `Button`, `TextBox`, `ComboBox`, and `ListBox`.
 
----
+**Q: Do I need to merge a theme dictionary when using ModernWindow?**\
+A: No. Merge `Generic.xaml` only. `ModernWindow` automatically handles
+the active Dark or Light theme, so do not manually add `DarkTheme.xaml`
+or `LightTheme.xaml`.
+
+------------------------------------------------------------------------
 
 ## 📦 Roadmap
 
-- .NET 10 support  
-- Accent color customization  
-- Light theme improvements  
-- Sample/demo app  
-- Theming guide & documentation  
+✅ **AtomicUI Gallery available in the Microsoft Store**
 
----
+1. ✅ Expanded sample application
+2. ✅ Modern TreeView enhancements
+3. ✅ .NET 10 support
+4. .NET 11 support
+5. ✅ Light theme refinement and polish
+6. Accent color customization support
+7. ✅ Validation styling improvements
+8. Layout density support (Compact / Comfortable)
+9. Comprehensive theming documentation and guides
+10. AtomicUI.WinUI - Preview
+11. AtomicUI.Avalonia - Preview
+
+------------------------------------------------------------------------
 
 ## 🌐 Links
 
-- Website: [atomicapps.dev](https://atomicapps.dev)
-- Demo: [atomicapps.dev](https://atomicapps.dev/demo)
-- Pricing: [atomicapps.dev/pricing](https://atomicapps.dev/pricing)  
-- YouTube: [AtomicAppsOfficial](https://www.youtube.com/@AtomicAppsOfficial)  
-- X (Twitter): [@AtomicAppsUI](https://x.com/AtomicAppsUI)  
+-   Website: [atomicapps.dev](https://atomicapps.dev)
+-   Demo: [atomicapps.dev](https://atomicapps.dev/demo)
+-   Pricing: [atomicapps.dev/pricing](https://atomicapps.dev/pricing)\
+-   YouTube:
+    [AtomicAppsOfficial](https://www.youtube.com/@AtomicAppsOfficial)\
+-   X (Twitter): [@AtomicAppsUI](https://x.com/AtomicAppsUI)
