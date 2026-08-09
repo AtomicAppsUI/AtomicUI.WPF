@@ -137,12 +137,11 @@ dotnet add package AtomicUI.Wpf
 
 #### Using `ModernWindow`
 
-If your application uses `ModernWindow`, **do not add `DarkTheme.xaml`
-or `LightTheme.xaml`**.
+If your application uses `ModernWindow`, **do not add `DarkTheme.xaml` or `LightTheme.xaml`**.
 
 You only need to merge `Generic.xaml`:
 
-``` xml
+```xml
 <ResourceDictionary>
   <ResourceDictionary.MergedDictionaries>
     <ResourceDictionary Source="/AtomicUI;component/Themes/Generic.xaml" />
@@ -150,11 +149,49 @@ You only need to merge `Generic.xaml`:
 </ResourceDictionary>
 ```
 
-`ModernWindow` automatically loads and manages the active Dark or Light
-theme.
+`ModernWindow` automatically loads and manages the active Dark or Light theme.
 
-> **Important:** When using `ModernWindow`, reference `Generic.xaml`
-> only. Do not manually merge a theme dictionary.
+> **Important:** When using `ModernWindow`, reference `Generic.xaml` only. Do not manually merge a theme dictionary.
+
+##### Theme selection
+
+Set the theme directly on `ModernWindow` using `IsDarkTheme`:
+
+```xml
+<ui:ModernWindow
+    ...
+    IsDarkTheme="True">
+</ui:ModernWindow>
+```
+
+- `IsDarkTheme="True"` — Dark theme
+- `IsDarkTheme="False"` — Light theme (default)
+
+##### Built-in theme toggle
+
+`ModernWindow` includes a built-in theme toggle button that allows users to switch between Dark and Light themes.
+
+The button is shown by default. You can control its visibility with `ShowThemeToggleButton`:
+
+```xml
+<ui:ModernWindow
+    ...
+    IsDarkTheme="True"
+    ShowThemeToggleButton="True">
+</ui:ModernWindow>
+```
+
+To hide the theme toggle:
+
+```xml
+<ui:ModernWindow
+    ...
+    ShowThemeToggleButton="False">
+</ui:ModernWindow>
+```
+
+This lets you either provide theme switching directly from the `ModernWindow` title bar or control the application's theme yourself.
+
 
 #### Using a standard WPF `Window`
 
