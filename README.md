@@ -224,7 +224,7 @@ with the theme you want to use.
 </ResourceDictionary>
 ```
 
-### 3. Use `ModernWindow` (optional)
+### 3. Use `ModernWindow` (recommended)
 
 Replace your WPF window with `ModernWindow` if you want AtomicUI's
 custom window chrome and automatic theme handling:
