@@ -34,7 +34,7 @@ The gallery demonstrates:
 - Modernized WPF layouts and surfaces
 - Native WPF controls styled with AtomicUI
 
-<img width="500"  alt="Dashboard" src="https://github.com/user-attachments/assets/757b0d3c-fc41-4ba2-944b-5aa66cebf96c" />
+<img width="500"  alt="Dashboard" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/Dashboard.png" />
 <img width="500"  alt="BasicInput" src="https://github.com/user-attachments/assets/62d03c31-caf1-4d5c-97a5-7440b8e0ece2" />
 
 <img width="500"  alt="Text" src="https://github.com/user-attachments/assets/8d03a581-d7ad-4b2e-ae7e-f5d44720e0ed" />
