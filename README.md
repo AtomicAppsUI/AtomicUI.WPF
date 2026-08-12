@@ -139,9 +139,14 @@ dotnet add package AtomicUI.Wpf
 
 ### 2. Add AtomicUI resources
 
-#### Using `ModernWindow`
+### Using `ModernWindow` (recommended)
 
-If your application uses `ModernWindow`, **do not add `DarkTheme.xaml` or `LightTheme.xaml`**.
+`ModernWindow` is optional, but recommended for the best AtomicUI experience.
+
+If your application uses `ModernWindow`, you **do not need to add
+`DarkTheme.xaml` or `LightTheme.xaml` manually**.
+
+Merge `Generic.xaml` only:
 
 You only need to merge `Generic.xaml`:
 
