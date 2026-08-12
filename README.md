@@ -35,14 +35,17 @@ The gallery demonstrates:
 - Native WPF controls styled with AtomicUI
 
 <img width="500"  alt="Dashboard" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/Dashboard.png" />
-<img width="500"  alt="BasicInput" src="https://github.com/user-attachments/assets/62d03c31-caf1-4d5c-97a5-7440b8e0ece2" />
+<img width="500" alt="BasicInput" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/BasicInput.png" />
 
-<img width="500"  alt="Text" src="https://github.com/user-attachments/assets/8d03a581-d7ad-4b2e-ae7e-f5d44720e0ed" />
-<img width="500"  alt="DateAndCalendar" src="https://github.com/user-attachments/assets/96c6b6ed-871b-476d-8535-8d052a75a18d" />
+<img width="500" alt="Text" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/Text.png" />
 
-<img width="500"  alt="Collections" src="https://github.com/user-attachments/assets/8be587f4-e927-4623-90f2-16a06d16d658" />
-<img width="500"  alt="WorkspaceDemo" src="https://github.com/user-attachments/assets/76c631df-d323-4edb-92a2-497aa8551578" />
-<img width="500"  alt="WorkspaceDemo22" src="https://github.com/user-attachments/assets/00b06a30-9ef4-42a3-8245-9d65bc388b10" />
+<img width="500" alt="DateAndCalendar" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/DateAndCalendar.png" />
+
+<img width="500" alt="Collections" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/Collections.png" />
+
+<img width="500" alt="WorkspaceDemo" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/WorkspaceDemo.png" />
+
+<img width="500" alt="WorkspaceDemo2" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/WorkspaceDemo2.png" />
 
 ------------------------------------------------------------------------
 
@@ -55,16 +58,17 @@ A couple of commercial products using AtomicUI.WPF:
 **Interactive Map Maker -- Turn Any Image Into a Custom Map** is a
 desktop mapping application built with WPF and AtomicUI.
 
-<img width="500" alt="trails2" src="https://github.com/user-attachments/assets/cdfe53d0-d4f9-4621-8d4f-788e8a876c58" />
-<img width="500"  alt="event4" src="https://github.com/user-attachments/assets/8d87ab91-6b2d-41e7-b3bf-e9c477a4198d" />
+<img width="500" alt="trails2" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/trails2.webp" />
+
+<img width="500" alt="event4" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/event4.webp" />
 
 <table>
   <tr>
     <td valign="center">
-      <img width="500" src="https://github.com/user-attachments/assets/03045f06-c9e1-4ecc-9302-1d3bb94eb4b3" />
+      <img width="500" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/house1.webp" />
     </td>
     <td valign="top">
-      <img width="300" src="https://github.com/user-attachments/assets/ff0ad5d4-a55b-4f1d-99c6-5d8127a8bb46" />
+      <img width="300" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/game2.webp" />
     </td>
   </tr>
 </table>
@@ -75,9 +79,9 @@ desktop mapping application built with WPF and AtomicUI.
 **Tank Secrets** is a Windows aquarium management application built with
 WPF and AtomicUI.
 
-<img width="500" alt="Map Secrets - Dashboard" src="https://github.com/user-attachments/assets/e631b4d3-e4e0-4985-ba42-2d469ae0de45" />
+<img width="500" alt="Map Secrets - Dashboard" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/dashboard.png" />
 
-<img width="500" alt="Tank Secrets - Water Parameters" src="https://github.com/user-attachments/assets/7ed7470a-3861-4a42-97a6-95dfcb514f94" />
+<img width="500" alt="Tank Secrets - Water Parameters" src="https://raw.githubusercontent.com/AtomicAppsUI/AtomicUI.WPF/main/docs/images/waterparameters.png" />
 
 Both applications use native WPF controls styled with AtomicUI.
 
